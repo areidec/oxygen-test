@@ -1,0 +1,15 @@
+<div class="checkList">
+  <h1>Check List</h1>
+
+  <ul>
+    <ng-container *ngFor="let node of tree">
+      <li *ngIf="node.isChecked">{{node.label}}</li>
+      <ng-container *ngFor="let nodeChild of node.childNodes">
+        <li *ngIf="node.isChecked">{{nodeChild.label}}</li>
+        <ng-container *ngFor="let nodeChildren of nodeChild.childNodes">
+          <li *ngIf="nodeChildren.isChecked">{{nodeChildren.label}}</li>
+        </ng-container>
+      </ng-container>
+    </ng-container>
+  </ul>
+</div>

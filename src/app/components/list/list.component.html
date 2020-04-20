@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let children of tree; let idx = index">
+    <app-list-item
+      [childNode]="children"
+    ></app-list-item>
+  </li>
+</ul>

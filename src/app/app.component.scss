@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.part {
+  width: 50%;
+  overflow-y: auto;
+  background: #ccc;
+}
