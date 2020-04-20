@@ -103,7 +103,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div\n  class=\"list-item\"\n>\n  <div\n    class=\"list-item-label\"\n  >\n    <button\n      class=\"btn btn-arrow\"\n      [class.active]=\"childNode.opened\"\n      *ngIf=\"childNode.childNodes\"\n      (click)=\"open(childNode.ids)\"\n    >\n      <img src=\"/assets/arrow.svg\">\n    </button>\n    <div class=\"checkbox\">\n      <input\n        type=\"checkbox\"\n        [checked]=\"childNode.isChecked\"\n        (change)=\"check(childNode.ids)\"\n        [id]=\"childNode.ids\"\n      >\n      <label [for]=\"childNode.ids\">{{childNode.label}}</label>\n    </div>\n  </div>\n  <div\n    class=\"list-item-toggle\"\n    *ngIf=\"childNode.childNodes && childNode.opened\">\n    <app-list\n      [tree]=\"childNode.childNodes\"\n    ></app-list>\n  </div>\n</div>\n";
+    __webpack_exports__["default"] = "<div\n  class=\"list-item\"\n>\n  <div\n    class=\"list-item-label\"\n  >\n    <button\n      class=\"btn btn-arrow\"\n      [class.active]=\"childNode.opened\"\n      *ngIf=\"childNode.childNodes\"\n      (click)=\"open(childNode.ids)\"\n    >\n      <img src=\"/oxygen-test/dist/oxygen-test/assets/arrow.svg\">\n    </button>\n    <div class=\"checkbox\">\n      <input\n        type=\"checkbox\"\n        [checked]=\"childNode.isChecked\"\n        (change)=\"check(childNode.ids)\"\n        [id]=\"childNode.ids\"\n      >\n      <label [for]=\"childNode.ids\">{{childNode.label}}</label>\n    </div>\n  </div>\n  <div\n    class=\"list-item-toggle\"\n    *ngIf=\"childNode.childNodes && childNode.opened\">\n    <app-list\n      [tree]=\"childNode.childNodes\"\n    ></app-list>\n  </div>\n</div>\n";
     /***/
   },
 
@@ -297,12 +297,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     Licensed under the Apache License, Version 2.0 (the "License"); you may not use
     this file except in compliance with the License. You may obtain a copy of the
     License at http://www.apache.org/licenses/LICENSE-2.0
-    
+
     THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
     KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
     WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
     MERCHANTABLITY OR NON-INFRINGEMENT.
-    
+
     See the Apache Version 2.0 License for specific language governing permissions
     and limitations under the License.
     ***************************************************************************** */
